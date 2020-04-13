@@ -7,5 +7,5 @@ ntp_server { '1.2.3.4':
   source_interface => 'Fa0/0',
 }
 banner { 'motd':
-  motd => 'GOFUCKYOURSELF!',
+  motd => 'Go Fuck Yourself! This is puppet in action!',
  }
