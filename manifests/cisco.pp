@@ -6,7 +6,7 @@ ntp_server { '1.2.3.4':
   maxpoll => 14,
   source_interface => 'Fa0/0',
 }
-banner { 'motd':
+banner { motd:
   ensure => 'present',
   motd => 'GOFUCKYOURSELF!',
  }
