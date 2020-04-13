@@ -4,5 +4,5 @@ node puppetmaster {
   include role::master_server
 }
 node puppetagent {
-  include role::app_server
+  include role::db_server
   }
