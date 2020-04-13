@@ -8,5 +8,5 @@ ntp_server { '1.2.3.4':
 }
 banner {'name':
   ensure => 'present',
-  motd: 'GOFUCKYOURSELF!',
+  motd => 'GOFUCKYOURSELF!',
  }
